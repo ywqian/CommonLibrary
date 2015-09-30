@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/heih80"
+    android:background="@color/common_white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/popup_window_item_name_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="12dp"
+        android:gravity="center_vertical"
+        android:text="杭州"
+        android:textColor="@color/color323232"
+        android:textSize="@dimen/texts28" />
+
+    <View
+        android:id="@+id/popup_window_item_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#d9d9d9" />
+
+</LinearLayout>

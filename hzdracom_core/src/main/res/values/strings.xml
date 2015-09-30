@@ -1,0 +1,30 @@
+<resources>
+  <string name="app_name">hzdracom_core</string>
+
+  <string name="hello_world">Hello world!</string>
+  <string name="action_settings">Settings</string>
+
+  <string name="image_save_sdcard_deny">请插入SD卡</string>
+  <string name="image_save_sdcard_space_no_enough">存储空间不够，请清理后再保存</string>
+  <string name="sdcard_not_enough">存储空间已不足，无法保存此次多媒体消息</string>
+  <string name="sdcard_not_enough_warning">剩余存储空间很少，建议清理存储卡</string>
+  <string name="title_activity_food">FoodActivity</string>
+  <string name="title_activity_shop_detail">ShopDetailActivity</string>
+  <string name="title_activity_goverment">GovermentActivity</string>
+  <string name="title_activity_property_detial_fragment">PropertyDetialFragment</string>
+  <string name="title_activity_property">PropertyActivity</string>
+  <string name="title_activity_govermnet">GovermnetActivity</string>
+  <string name="title_activity_flash">FlashActivity</string>
+  <string name="title_activity_city">CityActivity</string>
+  <string name="common_empty_text">哦哦，这里什么都没有!</string>
+  <string name="common_fail_text">数据加载失败,请重试!</string>
+  <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+  <string name="pull_to_refresh_release_label">放开以刷新…</string>
+  <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+  <string name="pull_to_load_pull_label">上拉加载更多</string>
+  <string name="pull_to_load_release_label">松开加载更多</string>
+  <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+  <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+  <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+  <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+</resources>

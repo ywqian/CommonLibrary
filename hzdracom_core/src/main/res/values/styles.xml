@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- Base application theme. -->
+  <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="masterFragmentTheme">@style/AppTheme.MasterFragment.Transparent</item>
+    &lt;!&ndash; Customize your theme here. &ndash;&gt;
+  </style>
+
+  &lt;!&ndash; Default MasterFragment's theme. &ndash;&gt;
+  <style name="AppTheme.MasterFragment"></style>
+
+  &lt;!&ndash; MasterFragment's theme, transparent &ndash;&gt;
+  <style name="AppTheme.MasterFragment.Transparent">
+    <item name="android:windowBackground">@android:color/transparent</item>
+  </style>-->
+
+  <style name="my_common_diver_view">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">1px</item>
+    <item name="android:background">@color/colord0d0d0</item>
+  </style>
+
+  <style name="common_list_view">
+    <item name="android:cacheColorHint">#00000000</item>
+    <item name="android:fadingEdge">none</item>
+    <item name="android:listSelector">#00000000</item>
+    <item name="android:divider">#dcdcdc</item>
+    <item name="android:dividerHeight">1px</item>
+  </style>
+  <style name="common_title">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">50dp</item>
+    <item name="android:background">@color/white</item>
+  </style>
+
+  <style name="MyWidget" parent="@android:style/Theme" />
+
+  <style name="MyWidget.TabText">
+    <item name="android:textSize">14sp</item>
+    <item name="android:textColor">@color/tab_indicator_text</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:ellipsize">marquee</item>
+  </style>
+
+  <!-- Common list view styles -->
+  <style name="MyWidget.ListView">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:cacheColorHint">#00ffffff</item>
+    <item name="android:dividerHeight">2px</item>
+    <item name="android:listSelector">@android:color/transparent</item>
+    <item name="android:fadeScrollbars">true</item>
+  </style>
+</resources>

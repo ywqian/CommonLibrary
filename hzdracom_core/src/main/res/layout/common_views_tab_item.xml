@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <CheckedTextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:textColor="@color/main_tab_selector"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/indicate_img"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:gravity="center"
+        android:layout_marginTop="2dip"
+        android:layout_toRightOf="@id/item_name"
+        android:background="@drawable/update_hint"
+        android:textColor="#fffc2f2f"
+        android:textSize="6sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/shop_sort_item_name"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="温州"
+        android:textColor="#323232"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/shop_sort_item_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#d9d9d9" />
+
+</LinearLayout>
